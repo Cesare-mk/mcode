@@ -1,0 +1,34 @@
+# 环境变量文件（包含敏感信息）
+.env
+.mcode/*
+!.mcode/
+!.mcode/MCODE.md
+MCODE.local.md
+
+# 编译输出
+target/
+*.class
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# 日志
+*.log
+
+# codegraph 本地索引（机器生成，约 30MB）
+.codegraph/
+
+# Claude Code 本地会话配置
+.claude/settings.local.json
+
+# 个人求职材料，不入库
+面试准备-新版简历源码讲解.md
+resume-ref.txt
+
+# 操作系统
+.DS_Store
+Thumbs.db
+/reports
+temp_articles.json
